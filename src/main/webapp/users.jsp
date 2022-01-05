@@ -75,7 +75,7 @@
                 <td>
                     <form action="userdetails" method="POST">
                         <input type="hidden" name="id" value="<%=u.getId()%>"/>
-                        <input type="hidden" name="action" value="delete>"/>
+                        <input type="hidden" name="action" value="delete"/>
                         <button class="btn btn-danger" type="submit" value="delete">
                             <i class="fas fa-user-minus"></i>
                         </button>
